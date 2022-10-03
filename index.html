@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+<body class="ms-4">
+
+    <header class="row bg-light">
+      <div class="col-2 d-inline-block ancho pe-0 mt-2">
+        Codo a codo
+      </div>
+      <nav class="col d-flex flex-row mt-3">
+        <ul class="nav nav justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-opacity-50" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-opacity-25" href="#">Desactivado</a>
+            </li>
+        </ul>
+    </nav>
+    <aside class="col d-flex flex-row-reverse"> 
+        <form action="/action_page.php">
+        <div class="row mb-2 mt-3">
+            <div class="col-8">
+                <input type="buscar" class="form-control" placeholder="Buscar" id="buscar" name="buscar">   
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-success">Buscar</button>
+            </div>                
+        </div>  
+        </form>
+    </aside>
+    
+    </header>
+
+    <main class="row d-flex just">
+        <div class="col card" style="width:400px">
+            <img class="" src="https://www.masterseosem.com/images/etiquetas-html.webp" height="250px" alt="imagen html">
+            <div class="card-body">
+                <h4 class="card-title">titulo 1</h4>
+                <p class="card-text">Contenido de card</p>
+                <p class="text-secondary">Ultima actualizacion 1</p>
+              </div>
+        </div>
+        <div class="col card" style="width:400px"> 
+            <img class="" src="https://www.solucionex.com/sites/default/files/posts/imagen/css_blog.png" height="250px" alt="imagen css">
+            <div class="card-body">
+                <h4 class="card-title">titulo 2</h4>
+                <p class="card-text">Contenido de card</p>
+                <p class="text-secondary">Ultima actualizacion 1</p>
+              </div>
+       </div>
+       <div class="col card" style="width:400px">
+            <img class="" src="https://serv3.raiolanetworks.es/blog/wp-content/uploads/bootstrap-social-share.png" height="250px" alt="imagen bootstrap">
+            <div class="card-body">
+                <h4 class="card-title">titulo 3</h4>
+                <p class="card-text">Contenido de card</p>
+                <p class="text-secondary">Ultima actualizacion 1</p>
+              </div>
+       </div>
+        
+    </main>
+
+    <footer class="m-3">
+        <form action="/action_page.php">
+            <div class="mb-1 mt-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <p class="small text-muted">Nunca comparta su email.</p>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Contraseña:</label>
+              <input type="password" class="form-control" id="pwd" name="pswd">
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember">Verificar
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+</body>
+</html>
